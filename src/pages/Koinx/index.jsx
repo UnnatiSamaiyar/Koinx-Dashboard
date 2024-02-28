@@ -1,4 +1,5 @@
-import React, { axios, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import { Helmet } from "react-helmet";
 import { Button, Img, Text, Heading } from "../../components";
 import { TabPanel, TabList, Tab, Tabs } from "react-tabs";
